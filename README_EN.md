@@ -1,19 +1,17 @@
-# 构建健壮、可拓展的CSS架构的8个简单原则
+# 8 simple rules for a robust, scalable CSS architecture
 
-This is the manifest of things I've learned about managing CSS in large, 
-complex web projects during my many years of professional web development. 
-I've been asked about these things enough times that having a document to point to sounded like a good idea.
+This is the manifest of things I've learned about managing CSS in large, complex web projects during my many years of professional web development. I've been asked about these things enough times that having a document to point to sounded like a good idea.
 
 I've tried to keep the explanations short, but this is essentially the tl;dr:
 
-1. [**优先使用class**](#1-always-prefer-classes)
-1. [**协同定位模块代码**](#2-co-locate-component-code)
-1. [**一致的class命名空间**](#3-use-consistent-class-namespacing)
-1. [**严格保持文件名和命名空间的一一对应**](#4-maintain-a-strict-mapping-between-namespaces-and-filenames)
-1. [**防止影响外部模块**](#5-prevent-leaking-styles-outside-the-component)
-1. [**防止影响内部模块**](#6-prevent-leaking-styles-inside-the-component)
-1. [**重视模块边界**](#7-respect-component-boundaries)
-1. [**松散集成外部样式**](#8-integrate-external-styles-loosely)
+1. [**Always prefer classes**](#1-always-prefer-classes)
+1. [**Co-locate component code**](#2-co-locate-component-code)
+1. [**Use consistent class namespacing**](#3-use-consistent-class-namespacing)
+1. [**Maintain a strict mapping between namespaces and filenames**](#4-maintain-a-strict-mapping-between-namespaces-and-filenames)
+1. [**Prevent leaking styles outside the component**](#5-prevent-leaking-styles-outside-the-component)
+1. [**Prevent leaking styles inside the component**](#6-prevent-leaking-styles-inside-the-component)
+1. [**Respect component boundaries**](#7-respect-component-boundaries)
+1. [**Integrate external styles loosely**](#8-integrate-external-styles-loosely)
 
 ## Introduction
 
